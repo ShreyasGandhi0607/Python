@@ -1,0 +1,33 @@
+create a pthon virtual enviroment
+-> pyhton -m venv myenv
+
+Activate virtual enviroment(linux/macos)
+source myevn/bin/activate
+
+Activate virtual enviroment(windows)
+myenv\Scripts\activate
+
+deactivate virtual enviroment
+deactivate
+
+Install django
+pip install django
+
+Create a django project
+django-admin startproject mysite
+
+Create a django app
+python manage.py startapp myapp
+
+Run the server
+python manage.py runserver
+
+Create a superuser
+python manage.py createsuperuser
+
+Create migrations
+python manage.py makemigrations
+
+Migrate
+python manage.py migrate
+
